@@ -1,0 +1,44 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.license
+service_token
+service_token.*
+certs/
+
+# Private / operational data
+backups/
+*.dump
+data/
+uploads/
+logs/
+
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Flutter / Dart build output
+.dart_tool/
+.packages
+.pub-cache/
+build/
+dist/
+
+# IDE / OS files
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
